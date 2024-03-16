@@ -47,18 +47,19 @@ button {
   cursor: pointer;
   background-color: inherit;
 }
-.header {
+header .header {
   border-bottom: 1px solid #e7e9fc;
-}
-
-.container-header {
-  display: flex;
 }
 .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+
+.container-header {
+  display: flex;
+}
+
 .header-menu {
   display: flex;
   align-items: center;
@@ -88,6 +89,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 332px;
 }
 .header-menu-list-item {
   padding: 24px 0;
@@ -105,12 +107,7 @@ button {
 }
 .address-list {
   display: flex;
-}
-.address-list_item {
-  margin-right: 40px;
-}
-.address-list_item_two {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .address-list_item:hover,
