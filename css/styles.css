@@ -47,7 +47,7 @@ button {
   cursor: pointer;
   background-color: inherit;
 }
-header {
+header .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
