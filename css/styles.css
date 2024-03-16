@@ -81,7 +81,6 @@ header .header {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
   list-style-type: none;
   font-style: normal;
   font-weight: 500;
@@ -89,13 +88,16 @@ header .header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.header-menu-list-item {
+  padding: 24px 0 24px;
   margin-right: 40px;
 }
 .header-menu-list:hover,
 :focus {
   color: #404bbf;
 }
-address {
+.address {
   font-style: normal;
 }
 .address-list {
