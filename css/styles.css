@@ -2,6 +2,9 @@
 ::before,
 ::after {
   box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 body {
@@ -141,7 +144,7 @@ span {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -195,7 +198,6 @@ span {
 }
 .section-item {
   width: calc(100% - 72px);
-  height: 380px;
   border-radius: 0 0 4px 4px;
 }
 
