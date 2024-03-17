@@ -68,9 +68,9 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: 188px;
-  padding: 24px 0;
 }
 .menu-item {
+  padding: 24px 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -79,7 +79,7 @@ span {
 
 .menu-address-list {
   display: flex;
-
+  padding: 24px 0;
   gap: 40px;
   color: #434455;
   font-size: 16px;
