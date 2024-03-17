@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -26,7 +24,6 @@ address {
 }
 img {
   display: block;
-  max-width: 100%;
 }
 
 .header {
