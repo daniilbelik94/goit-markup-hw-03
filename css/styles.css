@@ -71,6 +71,7 @@ span {
 }
 .menu-item {
   padding: 24px 0;
+  display: block;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -82,12 +83,16 @@ span {
 
 .menu-address-list {
   display: flex;
-  padding: 24px 0;
+
   gap: 40px;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.address-item {
+  display: block;
+  padding: 24px 0;
 }
 
 .address-item:hover,
@@ -114,13 +119,13 @@ span {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .main-button {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin-top: 64px; /* добавление отступа сверху 64px */
   margin-left: auto; /* автоматическое выравнивание кнопки по центру */
   margin-right: auto; /* автоматическое выравнивание кнопки по центру */
   border: none;
@@ -222,7 +227,8 @@ span {
   gap: 24px;
 }
 .section-item {
-  width: calc(100% - 72px);
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -293,7 +299,6 @@ span {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .list-item-title_two {
   text-align: left;
