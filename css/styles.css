@@ -338,16 +338,3 @@ span {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
-.footer-icons {
- 
-}
-
-.footer-title-media {
-  position: relative;
-  letter-spacing: 0.02em;
-  line-height: 24px;
-  font-weight: 500;
-  display: inline-block;
-  min-width: 97px;
-  z-index: 1;
